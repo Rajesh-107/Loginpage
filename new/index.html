@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+</head>
+<style>
+  body{
+      background-color:rgb(61, 9, 159);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+  }
+  .main{
+      
+      margin: 50px 150px 200px 430px;
+      background-color: rgb(85, 141, 143);
+      width: 400px;
+      height: 400px;
+      margin: 10px solid;
+      border: midnightblue;
+      border-radius: 2rem;
+      box-shadow: 0px 11px 35px 2px rgb(33, 124, 228);
+  }
+  .sign{
+      text-align: center;
+      padding-top: 40px;
+      color: #8C55AA;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 23px;
+  }
+  .user{
+      width: 80%;
+      color: rgb(38, 50, 56);
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 14px;
+      background: rgb(187, 202, 230);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      margin: 10px;
+      outline: none;
+      box-sizing: border-box;
+      box-shadow: 0px 11px 35px 2px rgb(187, 202, 230);
+      margin-bottom: 70px;
+      margin-left: 45px;
+      margin-bottom: 20px;
+      font-family: sans-serif; 
+      }
+      form.form1{
+          padding-top: 40px;
+      }
+      .pass{
+        width: 80%;
+      color: rgb(38, 50, 56);
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 14px;
+      background: rgb(187, 202, 230);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      margin: 10px;
+      outline: none;
+      box-sizing: border-box;
+      box-shadow: 0px 11px 35px 2px rgb(187, 202, 230);
+      margin-bottom: 70px;
+      margin-left: 45px;
+      margin-bottom: 20px;
+      font-family: sans-serif; 
+      }
+      .user:focus, .pass:focus{
+          border: 2px solid rgba(0, 0,0, 0.18);
+      }
+      .submit{
+          text-align: center;
+          cursor: pointer;
+          border-radius: 5em;
+          color: skyblue;
+          background: linear-gradient(to right, #9C27B0, #E040FB);
+          border: 0px;
+          padding-left: 40px;
+          padding-right: 50px;
+          padding-bottom: 10px;
+          font-family: sans-serif;
+          margin-left: 130px;
+          font-size: 13px;
+          box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+      }
+      .forget{
+          text-shadow: 0px 0px 3px rgba(117,117, 117, 0.12);
+          color: royalblue;
+          padding-top: 15px;
+          text-align: center;
+      }
+      a{
+          text-shadow: 0px 0px 3px rgba(117,117, 117, 0.12);
+          color: slateblue;
+          text-decoration: none;
+      }
+      @media(max-width: 600px){
+          .main{
+              border-radius: 0px;
+          }
+      }
+</style>
+
+<body>
+  <div class="main">
+      <p class="sign"> Welcome To <br> <strong>Sign In</strong> </p>
+      <form class="form1">
+          <input class="user" type="text" placeholder="email">
+          <input class="pass" type="text" placeholder="password">
+          <a class="submit"> Sign in </a>
+          <p class="forget"><a href="#">Forget password?</a></p>
+      </form>
+
+  </div>
+</body>
+</html>
